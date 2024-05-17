@@ -50,3 +50,27 @@ print(type(e),e)
 f= (3+2/(2*5))**2
 print(f)
 
+#operaciones booleanas
+
+#cualquier numero excepto el 0 se interpreta como verdadero
+g=bool(20)
+h=bool(msg)
+n=bool(0)
+print(type(g),type(h),g,h,n)
+
+
+validMsg=(msgTotal==msgTotalv2) 
+numeroMayor= c>d
+numeroMayorv2= c>=d
+diferente=c!=d
+print(validMsg)
+print(numeroMayor)
+print(numeroMayorv2)
+
+#operacion combinada o compuesta
+ValorDeVerdad=(a>=0 and len(msgTotal)!=5) or (c<10 or msgTotal!="Hola")
+print(ValorDeVerdad)
+
+#asignacion global
+variablex=None
+
